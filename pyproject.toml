@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hyrox-data-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Stef Schrijer <schrijer@kyos.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
